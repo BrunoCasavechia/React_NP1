@@ -8,7 +8,7 @@
     border-bottom-right-radius: 20px;
     padding: 0;
     margin-right: 20px;
-}
+} 
 
 .Sidebar h2 {
     color: white;
@@ -63,9 +63,24 @@
 
 @media (max-width: 750px) {
     .Sidebar {
-      display: none;
+        position:absolute;
+        top: auto;
+        width: 100%;
+        margin-bottom: 1000px;
+        border-radius: 0px;
+        font-size: 10px;
     }
-  }
+    .Sidebar_ul a{
+        font-size: 15px;
+        margin: 0px;
+    }
+
+    .Submenu {
+        display: none;
+    }
+
+}
+
 
 
 

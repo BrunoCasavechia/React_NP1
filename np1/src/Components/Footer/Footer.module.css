@@ -14,13 +14,19 @@
     margin: 30px;
 }
 
-/* Responsividade */
+/* Responsividade do footer*/
 @media (max-width: 768px) {
-    .footer h1 {
-        font-size: 18px;
+    .footer h1,h2 {
+        display: none;
+    }
+
+    .footer_main {
+        margin-top: 15px;
     }
 
     .footer_main h3 {
-        font-size: 14px;
+        font-size: 10px;
     }
+
+    
 }
