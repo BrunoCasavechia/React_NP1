@@ -25,7 +25,7 @@ const Header = () => {
                 </nav>
 
                 <div className={styles.header_pesquisa_conteudo}>
-                    <img src='/Logo-Casavechia.png' alt="" />
+                    <img src='/Logo-Casavechia_verde.png' alt="" />
 
                     <div className={styles.header_barra_pesquisa}>
                         <input type="text" placeholder="Procure por código, nome, marca..." />

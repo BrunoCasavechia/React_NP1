@@ -1,6 +1,6 @@
 /* Estilo principal da Sidebar */
 .Sidebar {
-    background-color: #34495E; 
+    background-color: #1E8449; 
     width: 600px;
     display: flex;
     flex-direction: column;
@@ -61,6 +61,11 @@
     color: white; 
 }
 
+@media (max-width: 750px) {
+    .Sidebar {
+      display: none;
+    }
+  }
 
 
 

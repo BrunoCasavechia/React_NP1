@@ -1,6 +1,6 @@
 /* Altera o Header */
 .hero {
-    background-color: #C84B43;
+    background-color:#003a79;
     color: black;
     display: flex;
     margin: 0px auto;
@@ -25,7 +25,7 @@
     font-weight: 700;
     font-size: 25px;
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 
 /* Insere a cor preta quando está selecionado */
@@ -41,8 +41,8 @@
 }
 
 .header_pesquisa_conteudo img{
-  width: 250px;
-  margin-right: 10px;
+  width: 300px;
+  margin-right: 25px;
 }
 
 /* Estilo do contêiner */
@@ -53,7 +53,7 @@
     justify-content: center; 
     border-radius: 12px;
     height: 80px;
-    margin-top: 60px;
+    margin-top: 80px;
     width: 900px;
   }
 
@@ -75,10 +75,34 @@
     height: 100%; 
     margin-left: auto;
   }
+
+  .header_barra_pesquisa input:focus{
+     outline: none; /*Tira a borda padrao que o input insere */
+  }
   
   .search_button:hover {
     background-color: #002a5c;
   }
+
+
+@media (max-width: 768px) {
+    .header_pesquisa_conteudo {
+        margin-top: 100px;
+    }
+
+    .header_ul {
+        flex-direction: column; /* Coloca a lista de navegação em uma coluna */
+        gap: 10px;
+    }
+
+    .header_barra_pesquisa {
+        height: 40px; /* Ajusta a altura da barra de pesquisa em telas menores */
+    }
+
+    .header_barra_pesquisa input {
+        font-size: 14px;
+    }
+}
 
 
 
