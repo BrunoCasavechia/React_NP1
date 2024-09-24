@@ -1,0 +1,97 @@
+/* Altera o Header */
+.hero {
+    background-color: #C84B43;
+    color: black;
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+/* Altera o conteudo da ul */
+.header_ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    gap: 50px;
+}
+
+/* Coloca cor nos conteudos da lista */
+.header_ul a{
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Insere a cor preta quando está selecionado */
+.header_ul a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.header_pesquisa_conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 130px;
+}
+
+.header_pesquisa_conteudo img{
+  width: 250px;
+  margin-right: 10px;
+}
+
+/* Estilo do contêiner */
+.header_barra_pesquisa {
+    display: flex;
+    align-items: center;
+    border: 2px solid #003a79;
+    justify-content: center; 
+    border-radius: 12px;
+    height: 80px;
+    margin-top: 60px;
+    width: 900px;
+  }
+
+  /* Estilo do input */
+  .header_barra_pesquisa input {
+    border: none;
+    font-size: 30px;
+    width: 100%;
+  }
+  
+  /* Estilo do botão */
+
+  .header_barra_pesquisa button {
+    background-color: #003a79; 
+    color: white; 
+    border: none;
+    padding: 20px 30px;
+    cursor: pointer;
+    height: 100%; 
+    margin-left: auto;
+  }
+  
+  .search_button:hover {
+    background-color: #002a5c;
+  }
+
+
+
+
+  
+  
+
+  
+
+
+
+
+
+
+
+

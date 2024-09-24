@@ -1,0 +1,67 @@
+/* Estilo principal da Sidebar */
+.Sidebar {
+    background-color: #34495E; 
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0;
+    margin-right: 20px;
+}
+
+.Sidebar h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.nome_menu {
+    border-bottom: 2px solid white;
+    margin-top: 15px;
+}
+
+/* Estilo da lista de categorias */
+.Sidebar_ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+/* Links principais */
+.Sidebar_ul a {
+    color: #ECF0F1; /* Cor de texto clara */
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600; /*Deixa em negrito*/
+    padding-top: 20px;
+    display: block; /* Elementos a sempre são como row, aqui está definindo eles como bloco para poder trabalhar */
+    border-radius: 6px;
+    padding-left: 0;
+}
+
+/* Submenu estilo */
+.Submenu {
+    list-style-type: none;
+    /* padding-left: 20px;  */
+    margin-top: 5px;
+    padding: 0
+}
+
+.Submenu li {
+    margin-bottom: 10px;
+}
+
+.Submenu a {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Submenu a:hover {
+    color: white; 
+}
+
+
+
+
+
