@@ -1,0 +1,25 @@
+.about {
+    display: flex;
+    margin: 50px 40px;
+    font-size: 25px;
+    gap: 50px;
+  }
+
+  .historia {
+    text-align: left;
+  }
+  
+  .historia {
+    text-align: left;
+  }
+  
+  .produtos {
+    text-align: left;
+  }
+  
+  .about b {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 2;
+  }

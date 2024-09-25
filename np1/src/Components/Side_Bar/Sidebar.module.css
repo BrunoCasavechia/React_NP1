@@ -1,84 +1,90 @@
 /* Estilo principal da Sidebar */
+
 .Sidebar {
     background-color: #1E8449; 
-    width: 600px;
-    display: flex;
-    flex-direction: column;
+    width: 500px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     padding: 0;
     margin-right: 20px;
+    height: 1500px;
 } 
 
+/* Estilo da lista inteira da Sidebar */
+.Sidebar_ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Estiliza todos os textos da Side bar */
+.Sidebar_ul a {
+    color: #ECF0F1; /* Cor de texto clara */
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600; /*Deixa em negrito*/
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 6px;
+    padding-left: 0;
+}
+
+/* Estiliza o conteudo h2 (Categorias) da side bar*/
 .Sidebar h2 {
     color: white;
     text-transform: uppercase;
     font-size: 30px;
 }
 
+/* Estiliza a div das categorias dentro da Sidebar */
 .nome_menu {
     border-bottom: 2px solid white;
     margin-top: 15px;
 }
 
-/* Estilo da lista de categorias */
-.Sidebar_ul {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
+.nome_menu a {
+    font-size: 100px;
 }
 
-/* Links principais */
-.Sidebar_ul a {
-    color: #ECF0F1; /* Cor de texto clara */
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: 600; /*Deixa em negrito*/
-    padding-top: 20px;
-    display: block; /* Elementos a sempre são como row, aqui está definindo eles como bloco para poder trabalhar */
-    border-radius: 6px;
-    padding-left: 0;
-}
-
-/* Submenu estilo */
+/* Estiliza a div submenu da Sidebar */
 .Submenu {
-    list-style-type: none;
-    /* padding-left: 20px;  */
     margin-top: 5px;
     padding: 0
 }
 
-.Submenu li {
-    margin-bottom: 10px;
-}
-
+/* Estiliza o texto do submenu da Sidebar */
 .Submenu a {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 500; /* Deixa em negrito */
 }
 
+/* Estiliza o texto da Sidebar adicionando uma cor quando o mouse está em cima */
 .Submenu a:hover {
     color: white; 
 }
 
+/* Estiliza a Sidebar com o midia querry alterando os conteudos quando a tela está com 750px */
 @media (max-width: 750px) {
     .Sidebar {
+        /* O position absolute deixa a Sidebar em cima da pagina */
         position:absolute;
         top: auto;
         width: 100%;
-        margin-bottom: 1000px;
         border-radius: 0px;
         font-size: 10px;
+        height: 250px;
     }
+
     .Sidebar_ul a{
         font-size: 15px;
         margin: 0px;
     }
-
+    
+    /* Remove o submenu deixando aparecer apenas os nomes das categorias */
     .Submenu {
         display: none;
     }
-
 }
 
 

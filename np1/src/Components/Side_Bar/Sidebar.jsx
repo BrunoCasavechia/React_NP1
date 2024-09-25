@@ -48,14 +48,6 @@ const Sidebar = () => {
                                 <li><a href="#">Mangueiras</a></li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#" className={styles.nome_menu}>Iluminação</a>
-                            <ul className={styles.Submenu}>
-                                <li><a href="#">Lâmpadas</a></li>
-                                <li><a href="#">Luminárias</a></li>
-                                <li><a href="#">Fitas de LED</a></li>
-                            </ul>
-                        </li>
                     </ul>
                 </article>  
             </section>
