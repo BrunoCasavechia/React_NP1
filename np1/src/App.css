@@ -16,6 +16,14 @@
   color: white;
 }
 
+body, html {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  height: 0;
+  zoom: 70%;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -29,16 +37,6 @@
     transform: rotate(360deg);
   }
 }
-
-body,
-html {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #ffffff;
-  margin: 0;
-  height: 0;
-  zoom: 70%;
-}
-
 
 .conteudo_principal {
   display: flex;

@@ -1,6 +1,6 @@
 import styles from "../Products/Product.module.css";
 
-const Product = ({imagem_produto, nome_produto, descricao_produto, preco_produto, preco_produto_promocao,}) => {
+const Product = ({imagem_produto, nome_produto, descricao_produto, preco_produto, preco_produto_promocao}) => {
   return (
     <div className={styles.product}>
       <img src={imagem_produto} />

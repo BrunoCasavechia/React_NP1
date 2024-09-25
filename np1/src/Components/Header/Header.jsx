@@ -35,7 +35,7 @@ const Header = () => {
                         </button>
                     </div>
                 </div>
-
+                {/* introducao */}
                 <section className={styles.intro}>
                     <h1>Bem-vindo à Materiais Casavechia</h1>
                     <p>O lugar certo para encontrar ferramentas de qualidade e alto desempenho!</p>
