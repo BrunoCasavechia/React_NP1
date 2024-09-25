@@ -6,7 +6,7 @@ import ProductList from './Components/Products/Product_list'
 import About from './Components/About/about';
 
 
-// Style / CSS
+// CSS
 import './App.css'
 
 function App() {
