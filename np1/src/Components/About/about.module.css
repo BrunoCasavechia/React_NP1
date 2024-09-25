@@ -3,18 +3,7 @@
     margin: 50px 40px;
     font-size: 25px;
     gap: 50px;
-  }
-
-  .historia {
-    text-align: left;
-  }
-  
-  .historia {
-    text-align: left;
-  }
-  
-  .produtos {
-    text-align: left;
+    text-align: center;
   }
   
   .about b {
@@ -22,4 +11,14 @@
     text-transform: uppercase;
     margin-bottom: 20px;
     line-height: 2;
+  }
+  
+  @media (max-width: 750px) {
+    .about b{
+      font-size: 25px;
+    }
+
+    .about p {
+      font-size: 20px;
+    }
   }

@@ -29,7 +29,7 @@
 
 /* Insere a cor preta quando algum conteudo está selecionado no menu de navegação */
 .header_ul a:hover {
-    color: rgb(0, 0, 0);
+    color:#1E8449;
 }
 
 
@@ -112,7 +112,7 @@
     }
 
     .hero a{
-      font-size: 10px;
+      font-size: 20px;
     }
 
     h1 {
@@ -127,18 +127,9 @@
         margin: 0 2%;
     }
 
-    /* Muda os conteudos abaixo do menu de navegação */
-    .header_pesquisa_conteudo {
-      display: flex;
-      justify-content: space-around;
-      flex-direction: column;
-      margin: 0px;
-    }
-
     .header_pesquisa_conteudo img{
-      width: 150px;
+      width: 250px;
       margin: 0px;
-      justify-content: left;
     }
 
     /* Remove a barra de pesquisa  */

@@ -48,13 +48,14 @@
 
 @media (max-width: 750px) {
 	.product_list {
-		margin-top: 250px;
 		padding: 0px;
-		justify-content: center;
+		display: block;
+		margin: 350px auto 0px;
 	} 
 	
 	.product img {
 		max-width: 300px;
+		margin-top: 20px;
 	}
 	
 	.botao_selecionado a {

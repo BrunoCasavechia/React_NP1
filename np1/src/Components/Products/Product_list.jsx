@@ -8,6 +8,13 @@ import parafusadeira from '../Products/Assets/parafusadeira.png'
 import esmirilhadeira_angular from '../Products/Assets/esmirilhadeira_angular.png'
 import Martelete_parafusador from '../Products/Assets/Martelete_parafusador.png'
 import Martelete_rompedor from '../Products/Assets/Martelete_rompedor.png'
+import serra_marmore from '../Products/Assets/serra_marmore.png'
+import jogo_chaves from '../Products/Assets/jogo_chaves.png'
+import furadeira_eletrica from '../Products/Assets/furadeira_eletrica.png'
+import lixadeira from '../Products/Assets/lixadeira.png'
+import serra_bancada from '../Products/Assets/serra_bancada.png'
+import furadeira_magnetica from '../Products/Assets/furadeira_magnetica.png'
+
 
 // Styles
 import styles from "../Products/Product.module.css"
@@ -61,20 +68,46 @@ const ProductList = () => {
             preco_produto={933.90} />
 
             <Product 
-            imagem_produto={Martelete_rompedor}
-            nome_produto="Martelete Rompedor BOSCH" 
-            descricao_produto="Rompedor + Kit 10 Brocas"
-            preco_produto_promocao={1037.67}
-            preco_produto={933.90} />
+            imagem_produto={serra_marmore}
+            nome_produto="Serra Mármore Makita" 
+            descricao_produto="4.3/8 POL 1.300W c/ 2 Discos"
+            preco_produto_promocao={461.33}
+            preco_produto={414.89} />
 
             <Product 
-            imagem_produto={Martelete_rompedor}
-            nome_produto="Martelete Rompedor BOSCH" 
-            descricao_produto="Rompedor + Kit 10 Brocas"
-            preco_produto_promocao={1037.67}
-            preco_produto={933.90} />
+            imagem_produto={jogo_chaves}
+            nome_produto="Jogo de Chaves de Fenda" 
+            descricao_produto="Bits e Soquetes 39 Peças"
+            preco_produto_promocao={131.67}
+            preco_produto={112.99} />
 
+            <Product 
+            imagem_produto={furadeira_eletrica}
+            nome_produto="Parafusadeira e Furadeira EVALD" 
+            descricao_produto="Bateria 12V Bivolt com Maleta"
+            preco_produto_promocao={183.67}
+            preco_produto={164.89} />
 
+            <Product 
+            imagem_produto={lixadeira}
+            nome_produto="Lixadeira Combinada de Cinta" 
+            descricao_produto="375w EVLC-375 Bivolt EVALD"
+            preco_produto_promocao={832.67}
+            preco_produto={749.90} />
+
+            <Product 
+            imagem_produto={serra_bancada}
+            nome_produto="Serra de Bancada" 
+            descricao_produto="Multifunção Ferrari 1500W"
+            preco_produto_promocao={1739.67}
+            preco_produto={1589.90} />
+
+            <Product 
+            imagem_produto={furadeira_magnetica}
+            nome_produto="Furadeira de Base Magnética" 
+            descricao_produto="1700W FE-50M 220V MERAX"
+            preco_produto_promocao={9769.67}
+            preco_produto={8792.90} />
 
         </div>
     )

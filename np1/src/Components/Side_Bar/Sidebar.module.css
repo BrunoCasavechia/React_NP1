@@ -2,7 +2,7 @@
 
 .Sidebar {
     background-color: #1E8449; 
-    width: 500px;
+    width: 600px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     padding: 0;
@@ -73,7 +73,7 @@
         width: 100%;
         border-radius: 0px;
         font-size: 10px;
-        height: 250px;
+        height: 350px;
     }
 
     .Sidebar_ul a{
@@ -84,6 +84,10 @@
     /* Remove o submenu deixando aparecer apenas os nomes das categorias */
     .Submenu {
         display: none;
+    }
+
+    a.nome_menu  {
+        font-size: 20px;
     }
 }
 
