@@ -15,7 +15,7 @@
 }
 
 /* Responsividade do footer*/
-@media (max-width: 768px) {
+@media (max-width: 750px) {
     .footer h1,h2 {
         display: none;
     }
@@ -27,6 +27,5 @@
     .footer_main h3 {
         font-size: 10px;
     }
-
-    
 }
+

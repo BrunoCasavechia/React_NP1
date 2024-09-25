@@ -1,15 +1,14 @@
 /* Altera o Header */
 .hero {
     background-color:#003a79;
-    color: black;
     display: flex;
-    margin: 0px auto;
     align-items: center;
     justify-content: center;
     height: 100px;
     width: 100%;
     position: fixed;
     top: 0;
+
 }
 
 /* Altera o conteudo da ul */
@@ -83,7 +82,6 @@
   .search_button:hover {
     background-color: #002a5c;
   }
-
 
 @media (max-width: 750px) {
     /* Muda o tamanho e a estrutura dos conteudos do header */

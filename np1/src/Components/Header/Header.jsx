@@ -18,14 +18,13 @@ const Header = () => {
                 <nav className={styles.hero}>
                     <ul className={styles.header_ul}>
                         <li><a href="#">Início</a></li>
-                        <li><a href="#">Meus pedidos</a></li>
-                        <li><a href="#">Fale conosco</a></li>
-                        <li><a href="#">Criar conta</a></li>                    
+                        <li><a href="#about">Sobre nós</a></li>
+                        <li><a href="#">Fale conosco</a></li>           
                     </ul>
                 </nav>
 
                 <div className={styles.header_pesquisa_conteudo}>
-                    <img src='/Logo-Casavechia_verde.png' alt="" />
+                    <img src='/Logo-Casavechia_verde.png' />
 
                     <div className={styles.header_barra_pesquisa}>
                         <input type="text" placeholder="Procure por código, nome, marca..." />
